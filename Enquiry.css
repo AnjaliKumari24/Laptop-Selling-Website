@@ -1,0 +1,50 @@
+body{
+    background-image: url(/images/BG_1.jpg);
+}
+.enquiry {
+    top: 0%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .enquiry h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #333;
+    padding: 12px 25px;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
